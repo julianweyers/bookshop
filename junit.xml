@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="0" errors="0" time="5.858">
+  <testsuite name="Helper functions" errors="0" failures="0" skipped="0" timestamp="2024-12-13T08:17:46" time="1.535" tests="3">
+    <testcase classname="Helper functions sayHello should return &quot;Hello&quot;" name="Helper functions sayHello should return &quot;Hello&quot;" time="0.019">
+    </testcase>
+    <testcase classname="Helper functions calculateDiscount should add discount to title if stock is greater than 111" name="Helper functions calculateDiscount should add discount to title if stock is greater than 111" time="0.001">
+    </testcase>
+    <testcase classname="Helper functions calculateDiscount should not add discount to title if stock is 111 or less" name="Helper functions calculateDiscount should not add discount to title if stock is 111 or less" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="CatalogService" errors="0" failures="0" skipped="0" timestamp="2024-12-13T08:17:45" time="4.676" tests="4">
+    <testcase classname="CatalogService Service is initialized" name="CatalogService Service is initialized" time="0.241">
+    </testcase>
+    <testcase classname="CatalogService submitOrder reduces stock if available stock suffices" name="CatalogService submitOrder reduces stock if available stock suffices" time="0.076">
+    </testcase>
+    <testcase classname="CatalogService submitOrder returns error if stock is insufficient" name="CatalogService submitOrder returns error if stock is insufficient" time="0.12">
+    </testcase>
+    <testcase classname="CatalogService Books read operation adds discount for overstocked books" name="CatalogService Books read operation adds discount for overstocked books" time="0.03">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="1" errors="0" time="27.167">
+  <testsuite name="CatalogService" errors="0" failures="1" skipped="3" timestamp="2024-12-13T08:55:42" time="26.713" tests="4">
+    <testcase classname="CatalogService Service is initialized" name="CatalogService Service is initialized" time="14.8">
+      <failure>Error: thrown: &quot;Exceeded timeout of 10000 ms for a test.
+Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout.&quot;
+    at test (C:\Users\weyers\Documents\workspace\test2\bookshop\test\cat-service.test.js:8:3)
+    at _dispatchDescribe (C:\Users\weyers\Documents\workspace\test2\bookshop\node_modules\jest-circus\build\index.js:91:26)
+    at describe (C:\Users\weyers\Documents\workspace\test2\bookshop\node_modules\jest-circus\build\index.js:55:5)
+    at Object.describe (C:\Users\weyers\Documents\workspace\test2\bookshop\test\cat-service.test.js:4:1)
+    at Runtime._execModule (C:\Users\weyers\Documents\workspace\test2\bookshop\node_modules\jest-runtime\build\index.js:1439:24)
+    at Runtime._loadModule (C:\Users\weyers\Documents\workspace\test2\bookshop\node_modules\jest-runtime\build\index.js:1022:12)
+    at Runtime.requireModule (C:\Users\weyers\Documents\workspace\test2\bookshop\node_modules\jest-runtime\build\index.js:882:12)
+    at jestAdapter (C:\Users\weyers\Documents\workspace\test2\bookshop\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:77:13)
+    at runTestInternal (C:\Users\weyers\Documents\workspace\test2\bookshop\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\weyers\Documents\workspace\test2\bookshop\node_modules\jest-runner\build\runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="CatalogService submitOrder reduces stock if available stock suffices" name="CatalogService submitOrder reduces stock if available stock suffices" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="CatalogService submitOrder returns error if stock is insufficient" name="CatalogService submitOrder returns error if stock is insufficient" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="CatalogService Books read operation adds discount for overstocked books" name="CatalogService Books read operation adds discount for overstocked books" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+</testsuites>
